@@ -1,0 +1,98 @@
+body{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+*{
+    margin: 0px;
+    margin-top: 0px;   
+}
+h1{
+    color: white;
+    font-size: 3em;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(37, 37, 37, 0.918);
+    border-bottom: 10px solid rgb(11, 11, 11);
+    position: relative;
+    font-family: "cursive";
+
+
+}
+.fa-solid.fa-bars.fa-xs{
+    float: right;
+    margin-right: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+h1::selection{
+    background-color: aqua;
+}
+
+.dropdown{
+    position:relative;
+    display: block;
+}
+.dropdown{
+    float: right;
+    
+}
+.dropdown a{
+    display: none;
+    margin: 5px;
+    padding: 20px;
+    width: 200px;
+    text-align:left;
+    font-size: 0.5em;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(37, 37, 37, 0.918);
+}
+.dropdown .content{
+    position: absolute;
+    right: 10%;
+}
+
+
+.dropdown a:hover{
+    background-color: rgb(37, 37, 37);
+}
+.dropdown:hover a{
+    display: block;
+}
+.mango {
+    text-align: center;
+}
+
+.mango button{
+    color: white;
+    font-family: "Brush Script MT", "monospace";
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 30%;
+    background-color: rgb(46, 46, 55, 0.918);
+    border: 3px solid black;
+    font-size: 2em;
+    padding: 2%;
+    text-align: center;
+}
+
+.mango a {
+    text-decoration: none;
+}
+
+.mango button:hover {
+    background-color: rgb(255, 38, 38, 0.918);
+}
+
+@media screen and (max-width: 600px) {
+    .image{
+        width: 70%;
+    }
+    .mango button{
+        width: 50%;
+    }
+}
+
